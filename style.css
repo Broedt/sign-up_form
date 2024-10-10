@@ -14,7 +14,7 @@ body {
     
 }
 #left{
-    width: 40vw;
+    width: 37vw;
     height: 100vh;
     background-image: url(./cecilia-frost-M9D3poaqPzk-unsplash.jpg);
     background-size: cover;
@@ -27,7 +27,7 @@ body {
 }
 
 a {
-    color: black;
+    color: rgb(118, 92, 73);
 }
 
 .credit {
@@ -62,29 +62,76 @@ a {
     
     background-color: whitesmoke;
     width: 60vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+   
     justify-content: space-around;
+    font-family:Arial, Helvetica, sans-serif;
+
     
 }    
 
 
 #first, #third{
     height: 36vh;
-    
-  
+}
+#first{
+    position: relative;
+    font-size: 3vh;
+    font-weight:bold;
+}
+#first>div{
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 10% 5%;
+   
+}
+#third>div{
+    margin-left: 5%;
+}
+button {
+    width: 15vw;
+    padding: 6px;
+    border-radius: 7px;
+    margin: 5%;
+    background-color: rgb(134, 101, 78);
+    color: white;
 }
 #second{
     height: 28vh;
     background-color: white;
     box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.3);
-    
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.532);    
 }
-.form-group label,input {
-    display: block;
-    margin-bottom: 10px;
-  
+
+
+.form-group{
+    display: flex;
 }
+
+.form-group > div{
+   width: 40%;
+}
+label {
+    display: inline-block;
+    width: 20vw;
+    margin: 10px 0px 0px 0px;
+    font-size: smaller;
+}
+input {
+    width: 18vw;
+    font-size: 14px;
+}
+
+
+
 
 
 
