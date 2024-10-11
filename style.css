@@ -28,6 +28,7 @@ body {
 
 a {
     color: rgb(118, 92, 73);
+    text-decoration: none;
 }
 
 .credit {
@@ -92,11 +93,12 @@ a {
 }
 button {
     width: 15vw;
-    padding: 6px;
+    padding: 9px;
     border-radius: 7px;
     margin: 5%;
     background-color: rgb(134, 101, 78);
     color: white;
+    border: none;
 }
 #second{
     height: 28vh;
@@ -108,7 +110,7 @@ button {
     justify-content: space-around;
     font-size: 16px;
     font-weight: bold;
-    color: rgba(0, 0, 0, 0.532);    
+    color: rgba(0, 0, 0, 0.804);    
 }
 
 
@@ -128,6 +130,20 @@ label {
 input {
     width: 18vw;
     font-size: 14px;
+    
+}
+input:focus {
+    border: 2px solid rgb(148, 200, 233) ;
+    outline: none;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+}
+
+.password  input:invalid{
+    border: 1px solid red;
+    outline: none;
+}
+.password input:valid {
+    border: 2px solid green;
 }
 
 
